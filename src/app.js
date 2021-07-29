@@ -13,7 +13,7 @@ window.onload = () => {
 };
 
 let generateExcuse = () => {
-  let who = ["the dog", "my granma", "his turtle", "my bird"];
+  let who = ["the dog", "my granma", "his turtle", "my bird", "your father"];
   let what = ["eat", "pissed", "crushed", "broked"];
   let possetion = ["my car", "my homework", "my shoe", "my head"];
   let when = [
@@ -21,7 +21,8 @@ let generateExcuse = () => {
     "right in time",
     "when I finished",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
+    "after my shower"
   ];
 
   let whoIndex = Math.floor(Math.random() * who.length);
