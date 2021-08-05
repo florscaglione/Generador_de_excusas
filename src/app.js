@@ -9,11 +9,10 @@ window.onload = () => {
   document.querySelector("#btn").addEventListener("click", () => {
     document.querySelector("#excuse").innerHTML = generateExcuse();
   });
-  console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => {
-  let who = ["the dog", "my granma", "his turtle", "my bird", "your father"];
+  let who = ["The dog", "My granma", "His turtle", "My bird", "Your father"];
   let what = ["eat", "pissed", "crushed", "broked"];
   let possetion = ["my car", "my homework", "my shoe", "my head"];
   let when = [
